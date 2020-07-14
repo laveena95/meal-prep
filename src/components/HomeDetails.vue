@@ -1,21 +1,19 @@
 <template>
-    <v-container>
+    <v-container >
         <v-layout>
-            <v-container class="spacing-playground pa-6">
+            <v-container>
                 <div class="about">
                     <v-flex >
                         <h5>Delicious</h5>
                         <h2>PREMIUM</h2>
                         <h2>FOOD HOME</h2>
                     <v-flex>
-                        <p class="subheading mt-3" max-width="300px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pulvinar risus quis mauris interdum, in euismod nibh pretium. Etiam pulvinar tincidunt dapibus. Quisque sollicitudin, mauris a consequat consectetur, turpis nisl sollicitudin enim, id consectetur neque neque nec metus. Pellentesque dolor nisi, vulputate quis lobortis ac, tincidunt et quam.</p>
+                        <p class="subheading mt-3" max-width="300px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pulvinar risus quis mauris interdum, in euismod nibh pretium. Etiam pulvinar tincidunt dapibus. Quisque sollicitudin, mauris a consequat consectetur, turpis nisl sollicitudin enim, id consectetur neque neque nec metus.</p>
                         <v-img src="https://cdn.theforkmanager.com/static/styles/blog_article_header_image/public/wp-blog/5-el-tenedor-gestion-restaurantes-contratar-al-mejor-chef.jpg?itok=hDZiX5AS" height="400px" max-width="300px"></v-img>
                     </v-flex>
                     </v-flex>
                     <v-container>
-                        <v-flex>
-                            <v-img src="http://source.unsplash.com/hjCA3ecCXAQ" max-height="500px" max-width="200px" align="center"></v-img>
-                        </v-flex>
+                       
                     </v-container>
                 </div>
             </v-container>
@@ -42,7 +40,6 @@ export default {
 .about{
     width: 400px;
     height: 600px;
-    background-color: yellow;
     margin-left: 100px;
 }
 .about h5{
