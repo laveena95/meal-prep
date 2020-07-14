@@ -17,6 +17,12 @@
                         <v-divider></v-divider>
                         <v-list-item>
                             <v-list-item-title>
+                                About
+                            </v-list-item-title>
+                        </v-list-item>
+                        <v-divider></v-divider>
+                        <v-list-item>
+                            <v-list-item-title>
                                 SIGN IN
                             </v-list-item-title>
                         </v-list-item>
@@ -31,10 +37,11 @@
             </div>
             <v-spacer class="hidden-md-and-up"> </v-spacer>
                 <router-link to="/">
-                    <v-toolbar-title to="/">{{ appTitle }}</v-toolbar-title>
+                    <v-toolbar-title style="color: white;">{{ appTitle }}</v-toolbar-title>
                 </router-link>
                 <v-btn flat class="hidden-sm-and-down" to="/menu">Menu</v-btn>
                 <v-spacer class="hidden-sm-and-down"></v-spacer>
+                <v-btn flat class="hidden-sm-and-down" to="/about">About</v-btn>
                 <v-btn flat class="hidden-sm-and-down" to="/signin">SIGN IN</v-btn>
                 <v-btn color="brown lighten-3" class="hidden-sm-and-down" to="/join">JOIN</v-btn>
         </v-toolbar>

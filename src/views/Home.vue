@@ -1,7 +1,8 @@
 <template>
     <span>
         <home-hero></home-hero>
-        <home-details></home-details>
+       <v-spacer></v-spacer>
+        <home-details ></home-details>
         <home-plans></home-plans>
     </span>
 </template>
