@@ -40,10 +40,10 @@
                     <v-toolbar-title style="color: white;">{{ appTitle }}</v-toolbar-title>
                 </router-link>
                 <v-btn flat class="hidden-sm-and-down" to="/menu">Menu</v-btn>
+                <v-btn flat class="hidden-sm-add-down n10" @click="$vuetify.theme.dark = ! $vuetify.theme.dark" rounded><span class="mr-2">dark mode</span></v-btn>
                 <v-spacer class="hidden-sm-and-down"></v-spacer>
                 <v-btn flat class="hidden-sm-and-down" to="/about">About</v-btn>
-                <v-btn flat class="hidden-sm-and-down" to="/signin">SIGN IN</v-btn>
-                <v-btn color="brown lighten-3" class="hidden-sm-and-down" to="/join">JOIN</v-btn>
+                <v-btn flat color="brown lighten-3" class="hidden-sm-and-down" to="/signin">SIGN IN</v-btn>
         </v-toolbar>
     </span>
 </template>
